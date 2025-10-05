@@ -133,11 +133,7 @@ padding: 24px 0;
 /* HERO section */
 .hero {
     background-color: #2e2f42;
-}
-
-.hero .container {
-    padding-top: 188px;
-    padding-bottom: 188px;
+    padding: 188px 0;
 }
 
 .hero-title {
@@ -158,12 +154,14 @@ margin: 0 auto 48px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-    cursor: pointer;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     padding: 16px 32px;
     margin: 0 auto;
     display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
 }
 
 .hero-btn:hover,
@@ -231,13 +229,14 @@ margin-bottom: 72px;
 }
 
 .team-members {
+    border-radius: 0px 0px 4px 4px;
     background-color: #fff;
     width: calc((100% - 3*24px) / 4)
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
-.member-img {
-    margin-bottom: 32px;
+.members-wrapped {
+    padding: 32px 0;
 }
 
 .member-title {
@@ -255,7 +254,6 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: center;
 color: #434455;
-margin-bottom: 32px;
 }
 
 /* Portfolio section */
@@ -308,15 +306,14 @@ margin-bottom: 32px;
 }
 
 /* Footer */
-.page-footer .container {
-    padding: 100px 0;
-}
+
 .page-footer {
     background-color: #2e2f42;
+    padding: 100px 0;
 }
 
 .footer-logo {
-    display: block;
+    display: inline-block;
     margin-bottom: 16px;
 }
 
